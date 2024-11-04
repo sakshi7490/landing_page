@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+header {
+    background-image: url("health.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    max-width: 1100px;
+    margin:auto;
+
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li {
+display: inline-block;
+border: 1px solid transparent;
+}
+ul li a {
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+
+}
+ul li a:hover{
+    background-color: white;
+    color:black;
+    transition: 0.6s ease;
+}
+.motion{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    margin-top: 25px;
+}
+.center-text{
+    margin-top: 250px;
+    margin-left: 530px;
+}
+h1{
+    color: #613659;
+}
+#id1{
+    border: 1px solid #613659;
+    color: #613659;
+    padding: 4px;
+    text-decoration: none;
+}
+#id2{
+    border: 1px solid #613659;
+    color: #613659;
+    padding: 4px;
+    text-decoration: none;
+}
+#id1:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+#id2:hover{
+    background-color:white;
+    color: black;
+    transition: 0.6s ease;
+}
